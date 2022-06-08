@@ -107,9 +107,9 @@ public class Frame extends JFrame implements ActionListener, ListSelectionListen
         this.newInvoiceBtn.setActionCommand("CreateNewInvoice");
         this.deleteInvoiceBtn.setText("Delete Invoice");
         this.deleteInvoiceBtn.setActionCommand("DeleteInvoice");
-        this.createNewLineBtn.setText("Save");
+        this.createNewLineBtn.setText("Create new line");
         this.createNewLineBtn.setActionCommand("Save");
-        this.deleteLineBtn.setText("Cancel");
+        this.deleteLineBtn.setText("Delete new line");
         this.deleteLineBtn.setActionCommand("Cancel");
         this.jPanel2.setBorder(BorderFactory.createLineBorder(Color.lightGray));
         this.jPanel1.setBorder(BorderFactory.createLineBorder(new Color(153, 153, 153)));
