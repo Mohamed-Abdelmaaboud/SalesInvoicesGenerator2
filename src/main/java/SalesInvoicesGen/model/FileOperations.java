@@ -21,7 +21,7 @@ public class FileOperations {
            while ((line = bufferedReader.readLine())!=null){
                String value []=line.split(",");
 
-              System.out.println("Invoice1Date" + value[1] + "customer1Name" + value[2]);
+              System.out.println("Invoice1Date : "  +  value[1]  +   "customer1Name : "  +   value[2]);
            }
        } catch (FileNotFoundException e) {
            e.printStackTrace();

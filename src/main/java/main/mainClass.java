@@ -1,6 +1,7 @@
 package main;
 
 
+import SalesInvoicesGen.model.FileOperations;
 import SalesInvoicesGen.view.Frame;
 
 public class mainClass {
@@ -8,6 +9,9 @@ public class mainClass {
 
             Frame f = new Frame();
             f.setVisible(true);
+
+        FileOperations fileOperations = new FileOperations();
+        fileOperations.readFile();
         }
     }
 
